@@ -1,0 +1,955 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"length"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"ProductList",
+				"ProductListPrices"
+			],
+			[
+				"cu",
+				"currentProductOnListPrice"
+			],
+			[
+				"ne",
+				"nextProduct"
+			],
+			[
+				"curr",
+				"currentProduct"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"Prod",
+				"Products"
+			],
+			[
+				"next",
+				"nextProductOnListPrice"
+			],
+			[
+				"Produ",
+				"ProductList"
+			],
+			[
+				"PR",
+				"ProductListItems"
+			],
+			[
+				"getEl",
+				"getElementsByClassName"
+			],
+			[
+				"Pro",
+				"ProductListItems"
+			],
+			[
+				"Pr",
+				"ProductListItems"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"search",
+				"search"
+			],
+			[
+				"pr",
+				"productImage"
+			],
+			[
+				"pro",
+				"productText"
+			],
+			[
+				"produ",
+				"productGridList"
+			],
+			[
+				"con",
+				"convertToHTML"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"body",
+				"body"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"bo",
+				"bodyHandle"
+			],
+			[
+				"targe",
+				"targetUrl"
+			],
+			[
+				"tex",
+				"textContent"
+			],
+			[
+				"html",
+				"html"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"sear",
+				"searchValue"
+			],
+			[
+				"titl",
+				"titleText"
+			],
+			[
+				"ons",
+				"onsubmit\tAttr"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"b",
+				"br\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"list-s",
+				"list-style-image\tproperty"
+			],
+			[
+				"border-co",
+				"border-collapse\tproperty"
+			],
+			[
+				"border-",
+				"border-width\tproperty"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"padding-",
+				"padding-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"anc",
+				"text-anchor\tproperty"
+			],
+			[
+				"re",
+				"repeat-y\tbackground-repeat"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"find",
+				"findAll"
+			],
+			[
+				"table",
+				"table_rows"
+			],
+			[
+				"shi",
+				"shipping"
+			],
+			[
+				"sh",
+				"shipping"
+			],
+			[
+				"prod",
+				"product_name"
+			],
+			[
+				"shipp",
+				"shipping_container"
+			],
+			[
+				"page_",
+				"page_html"
+			],
+			[
+				"strate",
+				"strategySum"
+			],
+			[
+				"proce",
+				"processMesh"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 2003,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"auto",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"Preferences:",
+				"Preferences: Color Highlight Settings"
+			],
+			[
+				"prefere",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"prv:open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 473.0,
+		"history":
+		[
+			"bash",
+			"which",
+			"bash",
+			"git",
+			"auto_save"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine"
+	],
+	"file_history":
+	[
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/index.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/server6.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/targetHTML.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/indexMockup.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/style.css",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/indeMockup.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Tutorial/index2.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Tutorial/index.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/server5.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/node_modules/puppeteer/lib/BrowserFetcher.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/server2.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/server.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/server4.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/server3.js",
+		"/var/folders/rf/6xhptt251qz8l083w0s59gd00000gn/T/Pants   Target.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/expressServer.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/index2.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/sum.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/ClothingSearchEngine/ClothingSearchEngine.sublime-project",
+		"/Users/ronaldginoti/Documents/WebDevelopment/JavaScript/Scraping2.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/JavaScript/Scraping.js",
+		"/Users/ronaldginoti/Documents/WebDevelopment/JavaScript/JSPromise.html",
+		"/Users/ronaldginoti/Documents/untitled.html",
+		"/Users/ronaldginoti/Documents/C++/OpenGLTutorial/3D Graphics Documentation",
+		"/Users/ronaldginoti/Documents/WebDevelopment/JavaScript/Game1.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Tutorial/style2.css",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Tutorial/coffee.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Tutorial/style.css",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Game1.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Clothing Search Engine/index2.html",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-build",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/Newegg Scrape/myWebScraper.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_01.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_02.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_03.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_04.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_05.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_06.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_07.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_08.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_09.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_10.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_11.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_12.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_13.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_14.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/PyQt/pyqt5_lesson_15.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/Tutorial Scrape/webScraper4.py",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Clothing Search Engine/style2.css",
+		"/Users/ronaldginoti/Documents/WebDevelopment/coffee.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Clothing Search Engine/index.html",
+		"/Users/ronaldginoti/Documents/WebDevelopment/Clothing Search Engine/style.css",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Themes/Theme - Coffee2/Coffee Dark Roast.tmTheme",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/Dark Roast/Widget - Coffee Dark Roast.stTheme",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/Dark Roast/Widget - Coffee Dark Roast.sublime-settings",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/Coffee Dark Roast.sublime-theme",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/Coffee Dark Roast.tmTheme",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/messages.json",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/package-metadata.json",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee2/README.md",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Theme - Coffee/Coffee Dark Roast.tmTheme",
+		"/Users/ronaldginoti/Documents/Web Development/Clothing Search Engine/index.html",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/PackageResourceViewer/README.md",
+		"/Users/ronaldginoti/Library/Application Support/Brackets/extensions/user/hater.coffee/package.json",
+		"/Users/ronaldginoti/Library/Application Support/Brackets/extensions/user/coffee.coffee/package.json",
+		"/Users/ronaldginoti/Documents/MacVim/tutor",
+		"/Users/ronaldginoti/.vimrc",
+		"/private/etc/shells",
+		"/private/etc/shells~orig",
+		"/Users/ronaldginoti/Documents/currentPath.txt",
+		"/Applications/MacVim.app/Contents/Resources/vim/runtime/tutor/tutor",
+		"/Applications/MacVim.app/Contents/Resources/vim/runtime/tutor/README.txt",
+		"/Applications/MacVim.app/Contents/Resources/vim/runtime/tutor/README.el.txt",
+		"/Users/ronaldginoti/Downloads/search.py/license.txt",
+		"/Volumes/S_Drive/Storage/Work/Notes/13427A32.zeb.rtf",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/webScraper4.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/myWebScraper.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/webScraper3.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/webScraper2.py",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/webScraper.py",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/User/python3Run.sublime-build",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/WebScraper/from urllib.request import urlopen as uReq",
+		"/Users/ronaldginoti/Documents/Python/MyProjects/CRM.py",
+		"/Users/ronaldginoti/Documents/Python/My Projects/CRM.py",
+		"/Users/ronaldginoti/Documents/Python/My Projects/Counterfactual regret minimization.py",
+		"/Users/ronaldginoti/Documents/Python/TensorFlow Code/SimpleMathWithVariables.py",
+		"/Users/ronaldginoti/Documents/virtualenv/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json",
+		"/Users/ronaldginoti/Documents/virtualenv/pip-selfcheck.json",
+		"/Users/ronaldginoti/Documents/virtualenv/share/jupyter/kernels/python3/kernel.json",
+		"/Users/ronaldginoti/Documents/Python/Basic Code/BeginningCode.py",
+		"/Users/ronaldginoti/Documents/Python/Basic Code/WordCount.txt",
+		"/Users/ronaldginoti/Documents/Python/Basic Code/aFile.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex8Lamp.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment8Lamp.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment4.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment9.txt",
+		"/Users/ronaldginoti/Documents/C++/assets/nanosuit_reflection/LICENSE.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/singleColorFragment14.glsl",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment8.6.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/include/assimp/config.h",
+		"/Users/ronaldginoti/Documents/C++/libraries/include/MESH/mesh.h",
+		"/Users/ronaldginoti/Documents/C++/libraries/include/MODEL/model.h",
+		"/Users/ronaldginoti/Documents/C++/libraries/include/mesh.h",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment10.glsl",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex10.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment10.txt",
+		"/Users/ronaldginoti/Library/Application Support/Sublime Text 3/Packages/Default/comment.py",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex9.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment8.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment7.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment6.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex8.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex5.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment5.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment3.5.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex8.5.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex8.6.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/fragment8.5.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex8.glsl",
+		"/Users/ronaldginoti/Documents/C++/libraries/shaders/vertex7.txt",
+		"/Users/ronaldginoti/Documents/C++/libraries/include/CAMERA/camera.h",
+		"/Users/ronaldginoti/Documents/Web Development/Lesson1.js",
+		"/Users/ronaldginoti/Documents/Python/Basic Code/Lesson5.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Product",
+			"class=\"product\">",
+			"class=\"product\"",
+			"class=\"product",
+			"class=\"product\"",
+			"product",
+			"productPrice",
+			"<p",
+			"productsLink",
+			"h-text-bs",
+			"<span",
+			"span",
+			"styles__StyledPricePromoWrapper-sc-14k8w5n-13",
+			"Images__ImageContainer-sc-1gcxa3z-2",
+			"Images__FadePrimaryOnHover-sc-1gcxa3z-0",
+			"h-text-bs",
+			"<span",
+			"span",
+			"fnMbFV",
+			"styles__StyledPricePromoWrapper-sc-14k8w5n-13",
+			">\n",
+			"h-padding-t-tight",
+			"local",
+			"127"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2003,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										494,
+										499
+									],
+									[
+										963,
+										968
+									],
+									[
+										1184,
+										1189
+									],
+									[
+										1772,
+										1777
+									],
+									[
+										1839,
+										1844
+									],
+									[
+										1904,
+										1909
+									],
+									[
+										1970,
+										1975
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_fill.png",
+								"regions":
+								[
+									[
+										469,
+										469
+									],
+									[
+										941,
+										941
+									],
+									[
+										1173,
+										1173
+									],
+									[
+										1763,
+										1763
+									],
+									[
+										1830,
+										1830
+									],
+									[
+										1895,
+										1895
+									],
+									[
+										1961,
+										1961
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_203040FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										182,
+										189
+									]
+								],
+								"scope": "col_203040FF"
+							},
+							"col_203040FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_203040FF_fill.png",
+								"regions":
+								[
+									[
+										160,
+										160
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_328DC9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										232,
+										239
+									],
+									[
+										1052,
+										1059
+									]
+								],
+								"scope": "col_328DC9FF"
+							},
+							"col_328DC9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_328DC9FF_fill.png",
+								"regions":
+								[
+									[
+										211,
+										211
+									],
+									[
+										1031,
+										1031
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B3610EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										864,
+										871
+									]
+								],
+								"scope": "col_B3610EFF"
+							},
+							"col_B3610EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B3610EFF_fill.png",
+								"regions":
+								[
+									[
+										853,
+										853
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E9E9E9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										59,
+										66
+									],
+									[
+										1164,
+										1171
+									]
+								],
+								"scope": "col_E9E9E9FF"
+							},
+							"col_E9E9E9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E9E9E9FF_fill.png",
+								"regions":
+								[
+									[
+										37,
+										37
+									],
+									[
+										1142,
+										1142
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										407,
+										412
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_fill.png",
+								"regions":
+								[
+									[
+										396,
+										396
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								1739,
+								1739
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 815.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 560.0
+	},
+	"pinned_build_system": "Packages/User/HTML.sublime-build",
+	"project": "ClothingSearchEngine.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"targetHTML.html"
+			],
+			[
+				"v",
+				"~/Documents/C++/libraries/shaders/vertex7.txt"
+			],
+			[
+				"fra",
+				"~/Documents/C++/libraries/shaders/fragment7.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 143.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

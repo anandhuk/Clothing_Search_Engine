@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Truvera - Shop the Latest Fashion Trends</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- <script src="jquery-3.3.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    </head>
+
+    <body>
+        <div id="menuBar">
+            <a href="/" id="home">Truvera</a>
+            <div id="subMenuBar">
+                <!-- Need to add separate web page here. -->
+                    <a href="/" id="todayDeals">Today's Deals</a>
+                    <a href="/" id="signIn">Sign In</a>
+            </div>
+        </div>
+
+        <div id="searchBar">
+            <!-- <form action="/s" method="GET"> -->
+            <!-- <form action="http://127.0.0.1:8000/myaction" method="post"> -->
+            <form id="searchForm">
+                    <!-- <input type="text" onsubmit="foo()" name="" value="" id="search"> <br> -->
+                    <input type="text" value="" id="searchElement">
+            </form>
+        </div>
+
+        <div id="productGrid">
+            <button onclick="sortProducts(0)">SortF</button>
+            <button onclick="sortProducts(1)">SortHP</button>
+            <button onclick="sortProducts(2)">SortLP</button>
+            <button onclick="sortProducts(3)">SortBS</button>
+            <button onclick="sortProducts(4)">SortBR</button>
+            <button onclick="sortProducts(5)">SortMR</button>
+            <ul id="ProductList">
+                <li id="productListItem1">
+                    <div id="product1" class="product">
+                        <div id="image1" class="images">
+                            <a href="">
+                                <img id="productImage1" src="http://target.scene7.com/is/image/Target/GUEST_18c64eff-5533-44ec-a790-372c2d6c760b?wid=253&amp;hei=253&amp;qlt=80&amp;fmt=webp"> <br>
+                            </a>
+                        </div>
+                        <div class="productInfo" id="productInfo1">
+                            <div id="productDescription1" class="productsDescription">
+                                <a id="productLink1" class="productsLink" href ="">Women's Paperbag Waist Shorts - A New Day™ Black</a>
+                            </div>
+                            <div id="productRating1" class="productsRatingDiv">
+                                <span class="productRating">4.5 out of 5 stars with 6 reviews</span>
+                            </div>
+                            <div id="productPrice1" class="productPriceDiv">
+                                <span class="productPrice">$24.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="productListItem2">
+                    <div id="product2" class="product">
+                        <div id="image2" class="images">
+                            <a href="">
+                                <img id="productImage2" src="http://target.scene7.com/is/image/Target/GUEST_bc808edd-5742-4faa-957f-ede7baee55b9?wid=253&amp;hei=253&amp;qlt=80&amp;fmt=webp"> <br>
+                            </a>
+                        </div>  
+                        <div class="productInfo" id="productInfo2">
+                            <div id="productDescription2" class="productsDescription">
+                                <a id="productLink2" class="productsLink" href ="">Women's Perfectly Cozy Lounge Shorts - Stars Above™</a>
+                            </div>
+                            <div id="productRating2" class="productsRatingDiv">
+                                <span class="productRating">2.5 out of 5 stars with 26 reviews</span>
+                            </div>
+                            <div id="productPrice2" class="productPriceDiv">
+                                <span class="productPrice">$25.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="productListItem3">
+                    <div id="product3" class="product">
+                        <div id="image3" class="images">
+                            <a href ="">
+                                <img id="productImage3" src="http://target.scene7.com/is/image/Target/GUEST_9e0adc24-980b-4286-823c-d95398ca717a?wid=253&amp;hei=253&amp;qlt=80&amp;fmt=webp"> <br>
+                            </a>
+                        </div>
+                        <div class="productInfo" id="productInfo3">
+                            <div id="productDescription3" class="productsDescription">
+                                <a id="productLink3" class="productsLink" href ="">Fruit of the Loom® Men's 4pk Breathable Micro-Mesh Shorts Leg Boxer Briefs - Turquoise/Gray</a>
+                            </div>
+                            <div id="productRating3" class="productsRatingDiv">
+                                <span class="productRating">4.9 out of 5 stars with 16 reviews</span>
+                            </div>
+                            <div id="productPrice3" class="productPriceDiv">
+                                <span class="productPrice">$26.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <script type="text/javascript">
+            function scrapeValue() {
+                // var search = document.querySelector('input');
+                // var searchForm = document.querySelector('form');
+                var searchForm = document.getElementById("searchForm");
+                function handleForm(event) { event.preventDefault(); }
+                searchForm.addEventListener('submit', handleForm);
+                var searchElement = document.getElementById("searchElement");
+                var productGrid = document.getElementById('productGrid');
+
+                searchForm.onsubmit = function() {
+                    var searchValue = searchElement.value;
+                    console.log(searchValue);
+                    updateDisplay(searchValue);
+                };
+
+                function updateDisplay(searchValue) {
+                searchValue = searchValue.replace(new RegExp(" ", "g"), "+");
+                searchValue = searchValue.toLowerCase();
+                var url = '/?search=' + searchValue;
+
+                var request = new XMLHttpRequest();
+                request.open('GET', url);
+                request.responseType = 'text';
+
+                request.onload = function() {
+                  // productGrid.textContent = request.response;
+                  productGrid.innerHTML = request.response;
+                };
+
+                request.send();
+                };
+
+                // updateDisplay('Verse 1');
+                // search.value = 'Verse 1';
+                // console.log(search.value);
+            }
+            
+            function sortProducts(sortType) {
+                if(sortType == 0) {
+                    sortProducts_F();
+                }
+                else if (sortType == 1) {
+                    sortProducts_HP();
+                }
+                else if (sortType == 2) {
+                    sortProducts_LP();
+                }
+                else if (sortType == 3) {
+                    sortProducts_BS();
+                }
+                else if (sortType == 4) {
+                    sortProducts_BR();
+                }
+                else if (sortType == 5) {
+                    sortProducts_MR();
+                }
+            }
+            
+                // Sort Products by Featured.
+            function sortProducts_F() {
+                let ProductList = document.getElementById("ProductList");
+                let Products = ProductList.getElementsByClassName('product');
+                let ProductListItems = ProductList.getElementsByTagName("LI");
+                console.log(ProductListItems.length);
+                // console.log(ProductListItems[0].innerHTML + '\n' + ProductListItems[1].innerHTML);
+                
+                // ProductListItems[1].parentNode.insertBefore(ProductListItems[0 + 1], ProductListItems[0]);
+                // ProductList.insertBefore(ProductListItems[1], ProductListItems[0]);
+                
+                let currentProductTemp = Products[0].innerHTML;
+                // let currentProduct = currentProductTemp;
+                // let currentProduct = Products[i].innerHTML;
+                let nextProduct = Products[0 + 1].innerHTML;
+                // console.log(currentProduct + '\n' + nextProduct);
+                Products[0].innerHTML = nextProduct;
+                Products[0 + 1].innerHTML = currentProductTemp;
+            }
+            
+                // Sort products by Highest Price.
+            function sortProducts_HP() {
+                let ProductList = document.getElementById("ProductList");
+                let Products = ProductList.getElementsByClassName('product');
+                // console.log(Products.length);
+                // console.log(Products[1].innerHTML);
+                let ProductListPrices = ProductList.getElementsByClassName('productPrice');
+                let sort = true;
+                let highestPrice = 0;
+                let sortCount = 0;
+                
+                for(j = 0; j < ProductListPrices.length; j++) {
+                    for(i = 0; i < ProductListPrices.length - 1; i++) {
+                        // let string = ProductListPrices[i].innerHTML;
+                        // let cutString = string.substr(1);
+                        // console.log(Number(cutString));
+                        let currentProductOnListPrice = Number(ProductListPrices[i].innerHTML.substr(1));
+                        let nextProductOnListPrice = Number(ProductListPrices[i + 1].innerHTML.substr(1));
+                        console.log(currentProductOnListPrice);
+                        if(currentProductOnListPrice < nextProductOnListPrice) {
+                            // ProductListItems[i].parentNode.insertBefore(ProductListItems[i + 1], ProductListItems[i]);
+                            
+                            let currentProductTemp = Products[i].innerHTML;
+                            // let currentProduct = currentProductTemp;
+                            // let currentProduct = Products[i].innerHTML;
+                            let nextProduct = Products[i + 1].innerHTML;
+                            // console.log(currentProduct + '\n' + nextProduct);
+                            Products[i].innerHTML = nextProduct;
+                            Products[i + 1].innerHTML = currentProductTemp;
+                        }
+                        else {
+                            
+                        }
+                        sortCount++;
+                        if(sortCount == (ProductListPrices.length - 1)){
+                            sort = false;
+                        }
+                    }
+                }
+            }
+            
+                // Sort products by Lowest Price.
+            function sortProducts_LP() {
+                let ProductList = document.getElementById("ProductList");
+                let Products = ProductList.getElementsByClassName('product');
+                // console.log(Products.length);
+                // console.log(Products[1].innerHTML);
+                let ProductListPrices = ProductList.getElementsByClassName('productPrice');
+                let sort = true;
+                let highestPrice = 0;
+                let sortCount = 0;
+                
+                for(j = 0; j < ProductListPrices.length; j++) {
+                    for(i = 0; i < ProductListPrices.length - 1; i++) {
+                        // let string = ProductListPrices[i].innerHTML;
+                        // let cutString = string.substr(1);
+                        // console.log(Number(cutString));
+                        let currentProductOnListPrice = Number(ProductListPrices[i].innerHTML.substr(1));
+                        let nextProductOnListPrice = Number(ProductListPrices[i + 1].innerHTML.substr(1));
+                        console.log(currentProductOnListPrice);
+                        if(currentProductOnListPrice > nextProductOnListPrice) {
+                            // ProductListItems[i].parentNode.insertBefore(ProductListItems[i + 1], ProductListItems[i]);
+                            
+                            let currentProductTemp = Products[i].innerHTML;
+                            // let currentProduct = currentProductTemp;
+                            // let currentProduct = Products[i].innerHTML;
+                            let nextProduct = Products[i + 1].innerHTML;
+                            // console.log(currentProduct + '\n' + nextProduct);
+                            Products[i].innerHTML = nextProduct;
+                            Products[i + 1].innerHTML = currentProductTemp;
+                        }
+                        else {
+                            
+                        }
+                        sortCount++;
+                        if(sortCount == (ProductListPrices.length - 1)){
+                            sort = false;
+                        }
+                    }
+                }
+            }
+            
+                // Sort products by Best Selling.
+            function sortProducts_BS() {
+                let ProductList = document.getElementById("ProductList");
+                let ProductListItems = ProductList.getElementsByTagName("LI");
+            }
+            
+                // Sort products by Best Ratings.
+            function sortProducts_BR() {
+                let ProductList = document.getElementById("ProductList");
+                let Products = ProductList.getElementsByClassName('product');
+                // console.log(Products.length);
+                // console.log(Products[1].innerHTML);
+                let ProductListRatings = ProductList.getElementsByClassName('productRating');
+                let sort = true;
+                let highestRating = 0;
+                let sortCount = 0;
+                
+                for(j = 0; j < ProductListRatings.length; j++) {
+                    for(i = 0; i < ProductListRatings.length - 1; i++) {
+                        let currentProductOnListRating = Number(ProductListRatings[i].innerHTML.substr(0, 3));
+                        let nextProductOnListRating = Number(ProductListRatings[i + 1].innerHTML.substr(0, 3));
+                        console.log(currentProductOnListRating);
+                        if(currentProductOnListRating < nextProductOnListRating) {
+                            // ProductListItems[i].parentNode.insertBefore(ProductListItems[i + 1], ProductListItems[i]);
+                            
+                            let currentProductTemp = Products[i].innerHTML;
+                            let nextProduct = Products[i + 1].innerHTML;
+                            Products[i].innerHTML = nextProduct;
+                            Products[i + 1].innerHTML = currentProductTemp;
+                        }
+                        else {
+                            
+                        }
+                        sortCount++;
+                        if(sortCount == (ProductListRatings.length - 1)){
+                            sort = false;
+                        }
+                    }
+                }
+            }
+            
+                // Sort products by Most Ratings.
+            function sortProducts_MR() {
+                let ProductList = document.getElementById("ProductList");
+                let Products = ProductList.getElementsByClassName('product');
+                // console.log(Products.length);
+                // console.log(Products[1].innerHTML);
+                let ProductListRatings = ProductList.getElementsByClassName('productRating');
+                let sort = true;
+                let highestRating = 0;
+                let sortCount = 0;
+                
+                for(j = 0; j < ProductListRatings.length; j++) {
+                    for(i = 0; i < ProductListRatings.length - 1; i++) {
+                        let currentProductOnListNumberOfRating = Number(ProductListRatings[i].innerHTML.substr(24, 2));
+                        let nextProductOnListNumberOfRating = Number(ProductListRatings[i + 1].innerHTML.substr(24, 2));
+                        console.log(currentProductOnListNumberOfRating);
+                        if(currentProductOnListNumberOfRating < nextProductOnListNumberOfRating) {
+                            // ProductListItems[i].parentNode.insertBefore(ProductListItems[i + 1], ProductListItems[i]);
+                            
+                            let currentProductTemp = Products[i].innerHTML;
+                            let nextProduct = Products[i + 1].innerHTML;
+                            Products[i].innerHTML = nextProduct;
+                            Products[i + 1].innerHTML = currentProductTemp;
+                        }
+                        else {
+                            
+                        }
+                        sortCount++;
+                        if(sortCount == (ProductListRatings.length - 1)){
+                            sort = false;
+                        }
+                    }
+                }
+            }
+            
+            scrapeValue();
+        </script>
+    
+    </body>
+</html>
