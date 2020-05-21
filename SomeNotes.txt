@@ -1,0 +1,10 @@
+This url (GET Method) will display all items in JSON for a certain search for Target.com:
+https://redsky.target.com/v2/plp/search/?channel=web&count=24&default_purchasability_filter=true&facet_recovery=false&isDLP=false&keyword=face+mask&offset=0&pageId=%2Fs%2Fface+mask&pricing_store_id=294&scheduled_delivery_store_id=294&store_ids=294%2C3251%2C1362%2C183%2C1309&visitorId=0171326AB8080201BA1EC63BED54D32C&include_sponsored_search_v2=true&ppatok=AOxT33a&platform=desktop&useragent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A75.0%29+Gecko%2F20100101+Firefox%2F75.0&key=eb2551e4accc14f38cc42d32fbc2b2ea
+
+Some keywords ('keyword') do not have items and redirect to another page.
+	Ex.: Keyword 'toys' will redirect to a page home to all toys.
+
+JSON:
+	Inside key 'search_response' there is a key 'items' and key 'metaData'
+		Inside 'items' is 'Item' which has all items in a range of key '0' to '24' (I've seen some with 23 and 24. Could go higher or lower, IDK).
+		Inside 'metaData' is '0' with 'name' that stores "redirect_url" and 'value' that stores the url to go to. (Not sure if the 'redirect_url' will always be in key '0')
