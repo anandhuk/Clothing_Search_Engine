@@ -33,7 +33,7 @@ const server = http.createServer((request, response) => {
 function searchSite() {
     request({
         method: 'GET',
-        url: 'https://www.target.com/s?searchTerm=jelly'
+        url: 'https://www.anandhu.com/s?searchTerm=jelly'
     }, (err, res, body) => {
 
         if(err) return console.error(err);
